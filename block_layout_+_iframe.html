@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+main {
+    width: 100%;
+    border: 1px solid gray;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+footer {
+    text-align: left;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    clear: left;
+}
+cite, address { 
+    font-style: italic;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}   
+nav ul a {
+    text-decoration: none;
+}
+section, article {
+    margin-left: 160px;
+	margin-right: 195px;
+    padding: 1em;
+    overflow: hidden;
+    border-right: 1px solid gray;	
+    border-left: 1px solid gray;
+    background-color: #CCC;
+}
+aside {
+	float: right;
+	max-width: 160px;
+	margin-right: 0;
+	padding: 1em;
+    clear: right;
+}
+address, blockquote, aside, section, nav, header, details, aside, article { 
+    display: block;
+}
+blockquote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+</style>
+</head>
+
+<body>
+   <main>
+    <header><h1>Creating A Page Layout</h1></header>
+    <aside>
+      <p>
+        <br />Click here to be redirected to the lesson on HTML Tags. </p><a href="https://www.w3schools.com/tags/tag_comment.asp"><img src="img/w3schools_logo.gif" width="130" height="22" alt="Link to W3Schools" longdesc="https://www.w3schools.com/tags/tag_comment.asp" /></a></aside>  
+    <nav>
+      <a href="/html/">HTML</a><br />
+      <a href="/css/">CSS</a><br />
+      <a href="/js/">JavaScript</a><br />
+      <a href="/jquery/">jQuery</a><br />      
+    </nav>
+    <section><p style="text-indent: 48px;">The code tags that create blocks and iframes can be found at the W3Schools Website under the lessons for HTML. 
+    Tags that are useful in creating block layouts
+    include: 
+    <dl style="display: block; padding: 2px; border: .10px inset #666; margin-left:575px; margin-right: 575px; background-color: #FFF">
+        <dt>* the < div > tag coupled with a [ class ] or</dt>
+        <dt>* the combination of specific tags such as:</dt>    
+            <dd>- < main ></dd>
+            <dd>- < header ></dd>
+            <dd>- < nav ></dd>
+            <dd>- < aside ></dd>
+            <dd>- < section ></dd>
+            <dd>- < article ></dd> 
+            <dd>- < quote > & < cite ></dd>
+            <dd>- < footer ></dd>
+            <dd>- < address ></dd> 
+            <dd>- < details > & < summary ></dd>
+            <dd>- and many more.</dd>
+    </dl>
+    </p><hr />
+      <blockquote cite="#"><p>"If there's one thing you learn by working on a lot of different Web sites, it's that almost any design idea–no matter how appallingly bad–can be made usable in the right circumstances, with enough effort."</p></blockquote>
+      <p><cite>  ― Steve Krug, Don't Make Me Think: A Common Sense Approach to Web Usability.</cite> <br />Skillcrush.com (2017). 25 Things every web designer needs to hear. Retrieved from <a href="https://skillcrush.com/2014/10/21/advice-for-web-designers/ ">https://skillcrush.com/2014/10/21/advice-for-web-designers/ </a></p>
+    </section>
+    <section><hr /><iframe height="300px" width="100%" src="apa/portfolio_apa-doc.html" name="iframe_a"></iframe><p>This is a sample of the how CSS [ inline ] style is used with < div > classes to create a formal 
+    document using APA guidelines for academic papers. </p>
+
+</section>
+    <article><hr />                
+      <p>There are other types of frames to use for page layouts, including Bootstrap.</p>
+      <address>To contact the Web Master, send an email to 
+  <a href="mailto:hafnerlori@gmail.com">hafnerlori@gmail.co</a></address>
+    </article>
+    <footer>            
+            <details>
+              <summary>Copyright 2017+.</summary>
+              <p> - by Lori Ann Hafner. All Rights Reserved.</p>
+              <p>All content and graphics on this web site are the property of the Lori Ann Hafner.</p>
+            </details>
+            <p><b>Note: </b>Content on this page is to showcase various types of page layouts.</p>
+            <address>
+            Lori Ann Hafner<br />
+            Philadelphia, PA <br />
+            267-343-8980<br />
+            hafnerlori@gmail.com    			
+            </address>
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.</button><p id="demo"></p>
+    </footer>    
+  </main>
+</body>
+</html>
