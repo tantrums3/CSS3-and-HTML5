@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+	width: 80%;
+	max-width: 216mm;
+	min-width: 8.5in;
+	max-height: 279mm;
+	min-height: 11in;
+	background: #FFF;  
+	margin: 0 auto;
+}
+.header-1, .header-2, .header-3, .header-4, .header-5 {
+	background: #FFF;
+	}
+.l-margin-1, .l-margin-2, .l-margin-3, .l-margin-4, .l-margin-5 {
+	float: left;
+	width: 10%;
+	background: #FFF;
+	padding-bottom: 10px; 
+	}
+.content-1, .content-2, .content-3, .content-4, .content-5 {
+		padding: 10px 0;
+		width: 80%;
+		float: left;
+		}
+.r-margin-1, .r-margin-2, .r-margin-3, .r-margin-4, .r-margin-5 {
+	float: left;
+	width: 10%;	
+	background: #FFF; 
+	padding: 10px 0;
+	}
+.footer-1, .footer-2, .footer-3, .footer-4, .footer-5 {
+	padding: 10px 0;
+	background: #FFF; 
+	position: relative;
+	clear: both;
+	}
+.page-break-1, .page-break-2, .page-break-3, .page-break-4, .page-break-5 {
+	background: #C0C0C0;
+	line-height: 20pt;
+	}

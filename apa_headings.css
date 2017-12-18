@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*headings are set according APA regulations*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Courier New", Courier, monospace;
+    font-size: 100%; /*0.75em * 16 = 12 pixels*/
+	font-variant: normal;
+	color: #000;
+	background-color: #FFF;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: normal;
+	word-spacing: normal;
+	line-height: 48px;
+	direction: ltr;
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+	width: 100%;
+	height: 48px;
+	}
+h1 { 
+    display: block;
+	font-style: normal;	    
+    font-weight: normal;
+	text-align: center;
+}
+h2 {
+	display: block;
+	font-style: normal;
+    font-weight: 900;
+	text-align: center;
+}
+h3 {
+	display: block;
+	font-style: normal;
+    font-weight: bold;
+	text-align: justify; 
+}
+/*to indent text you need three &emsp; */
+h4 {
+	display: inline;
+	font-style: normal;
+    font-weight: bold;
+	text-align: justify;
+}
+h5 {
+	display: inline;
+	font-style: italic;
+    font-weight: bold;
+	text-align: justify; 
+}
+h6 {
+	display: inline;
+	font-style: italic;
+    font-weight: normal;
+	text-align: justify; 
+}

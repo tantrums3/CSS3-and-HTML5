@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	/*to indent text you need three &emsp; */
+	display: inline;
+	font-family: "Courier New", Courier, monospace;
+	Font-size: 100%; /*0.75em * 16 = 12 pixels*/
+	font-weight: normal;
+	color: #000;
+	background-color: #FFF;
+	text-decoration: none;
+	text-align: justify;
+	letter-spacing: normal;
+	word-spacing: normal;
+	line-height: 48px;
+	direction: ltr;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	height: 48px;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	white-space: normal;
+}
+
+/*Italic or bold print*/
+p.normal { 
+	font-style: normal;
+}
+
+p.italic {	
+    font-style: italic;
+}
+p.thick {
+    font-weight: bold;
+}
+/*All lowercase letters are converted to uppercase letters smaller than the original uppercase text*/
+p.small {
+    font-variant: small-caps;
+}
